@@ -1,0 +1,17 @@
+def test(numbers):
+    if type(numbers) != list:
+        raise TypeError ("not a list")
+        for element in numbers
+        if element >= 0:
+            return "yes"
+        elif element < 0:
+            return "no"
+test([0, 3, 5])
+test([-1, -5, 0])
+test("hello")
+
+
+
+#code tests if argument is a list, if not it returns TypeError
+#code tests if list is all positive numbers, if it is it returns yes
+#code tests if list does not contain positive numbers, if it does it returns no
